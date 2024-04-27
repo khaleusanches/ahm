@@ -79,9 +79,6 @@ header{
     border-radius: 30px;
 }
 
-body{
-    
-}
 .box{
     background-image: url(imgs/bg.png);
     color: white;
@@ -187,7 +184,6 @@ body{
     padding: 0% 1%;
     padding-top: 1%;
     padding-bottom: 5%;
-    
 }
 
 .servicos h4{
@@ -237,17 +233,19 @@ body{
     padding-top: 8vh;
     height: 749px;
     background-color: white;
-    padding-bottom: 80vh;
+    padding-bottom: 85vh;
 }
 
 .sobre{
     margin-top: 5%;
     color: black;
     margin-left: 5%;
+    width: 30%;
     font-size: 24px;
 }
 .sobre p{
     font-family: "TitilliumWeb", sans-serif;
+    text-align: justify;
 }
 .sobre h2{
     font-weight: bolder;

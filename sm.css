@@ -1,4 +1,89 @@
-@media (min-width: 576px) and (max-width: 991px) {
+@media (min-width: 220px) and (max-width: 619px) {
+    .navega{
+        margin-right: 20px;
+    }
+    #btn_contact{
+        font-size: 8px;
+        padding: 10% 5%;
+        margin: 0;
+    }
+    #btn_saibaMais{
+        font-size: 8px;
+        padding: 5% 5%;
+        margin: 0;
+        width: 75px;
+    }
+    .box{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    .logo img{
+        align-items: center;
+        width: 250px;
+    }
+    .boxinbox h2{
+        font-size: 30px;
+    }
+    .boxinbox h3{
+        font-size: 20px;
+    }
+    .boxinbox p{
+        font-size: 14px;
+    }
+    .btn_solicitarOrca{
+        font-size: 12px;
+    }
+    .boxinbox{
+        margin: 0;
+        padding: 5%, 8%; 
+    }
+
+    .boxServicos {
+        margin: auto;
+        width: 85%;
+    }
+    .boxServicos p{
+        font-size: 16px;
+    }
+    .boxContainer{
+        flex-direction: column;
+    }
+    .servicos h4{
+        font-size: 16px;
+    }
+
+    .sobre {
+        width: 90%;
+    }
+    .sobre h2{
+        font-size: 56px;
+    }
+    .sobre p{
+        font-size: 16px;
+
+    }
+    #solicitar{
+        font-size: 20px;
+    }
+
+    .boxContainer2{
+        flex-direction: column;
+        margin-top: 0;
+        padding: 100% 0;
+        padding-right: 1%;
+    }
+
+    .formulario h2{
+        margin-top: 10%;
+        font-size: 32px;
+    }
+    .formulario hr{
+        width: 75%;
+    }
+}
+
+
+@media (min-width: 620px) and (max-width: 991px) {
     .navega{
         margin-right: 20px;
     }
@@ -41,6 +126,9 @@
         font-size: 20px;
     }
 
+    .sobre{
+        width: 90%;
+    }
     .boxContainer2{
         flex-direction: column;
         padding: 50vh 0;
@@ -57,10 +145,7 @@
         width: 75%;
     }
 
-    form{
-        width: 75%;
-        margin-right: 14.3%;
-    }
+
 
 }
 
@@ -110,9 +195,12 @@
         margin-top: 5%;
         font-size: 22px;
     }
+    .sobre{
+        width: 60%;
+    }
 
     .boxContainer2{
-        padding-top: 30vh;
+        padding-top: 25%;
         padding-right: 1%;
     }
     .boxContainer2 img{
