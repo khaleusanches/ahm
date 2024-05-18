@@ -1,17 +1,30 @@
 @media (min-width: 220px) and (max-width: 619px) {
     .navega{
-        margin-right: 20px;
+        margin-right: 10px;
+        padding-right: 50px;
+    }
+    .navbar-brand img{
+        width: 90px;
+        height: 33px;
+    }
+    .navbar-nav{
+        flex-direction: row;
+
     }
     #btn_contact{
         font-size: 8px;
-        padding: 10% 5%;
-        margin: 0;
+        padding: 0% 1%;
+        width: 120%;
+        height: 110%;
+        text-align: center;
+        padding-top: 5%;
     }
     #btn_saibaMais{
         font-size: 8px;
         padding: 5% 5%;
-        margin: 0;
+        margin: 0 10px;
         width: 75px;
+        text-align: center;
     }
     .box{
         flex-direction: column-reverse;
@@ -21,6 +34,7 @@
         align-items: center;
         width: 250px;
     }
+
     .boxinbox h2{
         font-size: 30px;
     }
@@ -31,8 +45,34 @@
         font-size: 14px;
     }
     .btn_solicitarOrca{
+        padding: 10px;
         font-size: 12px;
     }
+
+    .formaDeContato2{
+        width: 150px;
+        height: 40px;
+        margin-left: 10px;
+    }
+    .formaDeContato2 p{
+        font-family: "TitilliumWeb", sans-serif;
+        font-size: 12px;
+        margin-top: 22px;
+    }
+    #whats2{
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .formaDeContato{
+        padding: 0 4px;
+        padding-top: 10px;
+        width: 50%;
+    }
+    .formaDeContato p{
+        font-size: 22px;
+    }
+
     .boxinbox{
         margin: 0;
         padding: 5%, 8%; 
@@ -47,7 +87,9 @@
     }
     .boxContainer{
         flex-direction: column;
+        align-items: center;
     }
+    
     .servicos h4{
         font-size: 16px;
     }
@@ -69,7 +111,7 @@
     .boxContainer2{
         flex-direction: column;
         margin-top: 0;
-        padding: 100% 0;
+        padding: 30% 0;
         padding-right: 1%;
     }
 
@@ -89,7 +131,7 @@
     }
 
     .logo img{
-        width: 350px;
+        width: 200px;
     }
     .boxinbox h2{
         font-size: 30px;
@@ -101,11 +143,36 @@
         font-size: 14px;
     }
     .btn_solicitarOrca{
+        padding: 10px;
         font-size: 12px;
     }
     .boxinbox{
         margin: 0;
-        padding: 5%, 8%; 
+        padding: 5%, 2%; 
+    }
+
+    .formaDeContato2{
+        width: 150px;
+        height: 40px;
+        margin-left: 10px;
+    }
+    .formaDeContato2 p{
+        font-family: "TitilliumWeb", sans-serif;
+        font-size: 12px;
+        margin-top: 22px;
+    }
+    #whats2{
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .formaDeContato{
+        padding: 0 4px;
+        padding-top: 10px;
+        width: 50%;
+    }
+    .formaDeContato p{
+        font-size: 22px;
     }
 
     .boxServicos {
@@ -117,6 +184,7 @@
     }
     .boxContainer{
         flex-direction: column;
+        align-items: center;
     }
     .servicos h4{
         font-size: 16px;
@@ -131,7 +199,7 @@
     }
     .boxContainer2{
         flex-direction: column;
-        padding: 50vh 0;
+        padding: 2vh 0;
         padding-right: 1%;
     }
     .boxContainer2 img{
@@ -151,7 +219,11 @@
 
 @media (min-width: 992px) and (max-width:1500px){
     .logo img{
-        width: 500px;
+        width: 300px;
+    }
+    
+    .boxinbox{
+        padding-right: 8%;
     }
 
     .boxinbox h2{
@@ -179,6 +251,26 @@
         font-size: 12px;
     }
 
+    .formaDeContato2{
+        width: 150px;
+        height: 40px;
+        margin-left: 10px;
+    }
+    .formaDeContato2 p{
+        font-family: "TitilliumWeb", sans-serif;
+        font-size: 12px;
+        margin-top: 22px;
+    }
+    #whats2{
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .formaDeContato{
+        padding: 0 10px;
+        padding-top: 10px;
+        width: 35%;
+    }
 
     .boxServicos {
         margin: auto;
@@ -195,6 +287,7 @@
         margin-top: 5%;
         font-size: 22px;
     }
+    
     .sobre{
         width: 60%;
     }

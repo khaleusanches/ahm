@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styless.css">
     <link rel="stylesheet" href="sm.css">
+    
 </head> 
 <body>
     <header class="header">
@@ -17,10 +19,7 @@
             <div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" id="btn_contact" href="#oferecidos">Serviços oferecidos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="btn_saibaMais" href="#sobr">Sobre a AHM</a>
+                        <a class="nav-link" id="btn_saibaMais" href="#oferecidos">Sobre a AHM</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="btn_contact" href="#contato" >Entrar em contato</a>
@@ -35,13 +34,19 @@
                 <h2>Cuidando</h2>
                 <h3>Do seu patrimônio</h4>
                 <p>Nas áreas de conservação, limpeza,<br>zeladoria, portaria e administração<br> de condomínios</p>
-                <button class="btn btn_solicitarOrca">Solicitar Orçamento</button>
+                <div class="d-flex align-items-center">
+                    <a class="btn btn_solicitarOrca" href="#contato">Solicitar Orçamento</a>
+                    <div class="formaDeContato2">
+                        <img src="imgs/whatsapp.png" alt="" id="whats2">
+                        <p class="numero">14 98819-7587</p>
+                    </div>
+                </div> 
             </div>
             <div class="logo">
                 <img src="imgs/Logo grande.png" alt="">
             </div>
         </section>
-        <section class="boxServicos" id="oferecidos">
+        <section    class="boxServicos" id="oferecidos">
             <div id="introduction">
                 <h2>Serviços oferecidos pela AHM</h2>
                 <p>Nosso colaborador é nosso maior patrimônio, por isso mantemos nossa equipe sempre treinada e capacitada</p>
@@ -54,93 +59,68 @@
                 <div class="servicos ajuste">
                     <img src="imgs/servicos1.png" alt="">
                     <h4>Portaria Social</h4>
-                    <p>Confiare possui monitoramento <br>
-                        de entrada e saída de pessoas;<br>
-                        Fiscalização do patrimônio;<br>
-                        Recepção de pessoas;<br>
-                        Recebimento de mercadorias;<br>
-                        Verificação de anormalidades,<br>
-                        focos de acidentes e incêndio.</p>
+                    <p>Confiare possui monitoramento
+                        de entrada e saída de pessoas;
+                        Fiscalização do patrimônio;
+                        Recepção de pessoas;
+                        Recebimento de mercadorias;
+                        Verificação de anormalidades,
+                        focos de acidentes e incêndio.
                 </div>
                 <div class="servicos ajustes2">
                     <img src="imgs/servicos2.png" alt="">
                     <h4>Conservação e Limpeza</h4>
-                    <p>Equipamentos modernos,<br>
-                        higiênicos e que atendem a<br>
-                        normas de segurança e proteção<br>
-                        ao meio ambiente, soluções<br>
-                        customizadas de conservação e<br>
-                        limpeza para condomínios,<br>
-                        empresas, hotéis e outros<br>
+                    <p>Equipamentos modernos,
+                        higiênicos e que atendem a
+                        normas de segurança e proteção
+                        ao meio ambiente, soluções
+                        customizadas de conservação e
+                        limpeza para condomínios,
+                        empresas, hotéis e outros
                         ambientes em geral.</p>
-                </div>
-                <div class="servicos ajuste3">
-                    <img src="imgs/servico3.png" alt="">
-                    <h4>Administração <br> de Condomínios</h4>
-                    <p>Administração Contábil e<br>
-                        Financeira; Transparência na<br>
-                        apresentação de contas e<br>
-                        documentações em geral; Apoio<br>
-                        Operacional ao Síndico;<br>
-                        Assessoria Jurídica;<br>
-                        Gerenciamento de Pessoal e<br>
-                        Recursos Humanos</p>
                 </div>
             </div>
 
             <div class="boxContainer">
-                <div class="servicos ajuste1">
-                    <img src="imgs/servicos1.png" alt="">
+                <div class="servicos ajuste">
+                    <img src="imgs/servicos3.png" alt="">
                     <h4>Serviços <br> de Recepcionista</h4>
-                    <p>Cadastramento, identificação e<br>
-                        autorização de entrada; Agendar<br>
-                        serviços e eventos; Prestar<br>
-                        atendimento telefônico interno e<br>
-                        externo; Atender e informar<br>
+                    <p>Cadastramento, identificação e
+                        autorização de entrada; Agendar
+                        serviços e eventos; Prestar
+                        atendimento telefônico interno e
+                        externo; Atender e informar
                         cordialmente clientes.</p>
                 </div>
-                <div class="servicos  ajuste5">
-                    <img src="imgs/servicos2.png" alt="">
-                    <h4>Serviços <br> de Terceirização</h4>
-                    <p>Os serviços de terceirização<br>
-                        do grupo confiare ainda<br>
-                        incluem profissionais<br>
-                        especializados nas seguintes<br>
-                        funções: Ascensoristas;<br>
-                        Copeiras; Vigias de obra;<br>
-                        Garagistas; Zeladores.</p>
-                </div>
-                <div class="servicos ajuste3">
-                    <img src="imgs/servico3.png" alt="">
+                <div class="servicos ajuste2">
+                    <img src="imgs/servicos4.png" alt="">
                     <h4>Vigilância <br> Desarmada</h4>
-                    <p>Provê a terceirização de<br>
-                        vigilantes desarmados para a<br>
-                        fiscalização e segurança do<br>
-                        patrimônio, bem como para o<br>
-                        controle de fluxo de pessoas, de<br>
+                    <p>Provê a terceirização de
+                        vigilantes desarmados para a
+                        fiscalização e segurança do
+                        patrimônio, bem como para o
+                        controle de fluxo de pessoas, de
                         espaços públicos e privados.</p>
                 </div>
             </div>
-            <button class="btn btn_solicitarOrca" id="solicitar">Solicitar Orçamento</button>
+            
         </section>
 
         <section>
             <article class="boxContainer2" id="sobr">
                 <section class="sobre">
                     <h2>Sobre a AHM</h2>
-                    <p>A CONSERVADORA E ADMINISTRADORA DE CONDOMÍNIOS 
-                        CONFIARE foi fundada em 1993, possuindo mais de 20 anos de
-                        experiência na prestação de serviços a condomínios e
-                        empresas, priorizando sempre a qualidade e honestidade.
+                    <p>Fundada em 2019, a AHM foi criada para auxiliar e facilitar o dia a dia das
+                        pessoas nos condomínios, trabalhando para o bem estar e acessibilidade.
+                        Oferecemos serviços eficientes em limpeza, portaria, recepção e vigilância
+                        desarmada, confiando inteiramente em nossos colaboradores, com
+                        treinamentos, reuniões e uma boa didática no atendimento.
                         
-                        Nosso objetivo é facilitar o dia a dia de nossos clientes,
-                        viabilizando custos e principalmente o seu tempo, nas áreas de
-                        administração de condomínio, portaria/vigia, conservação,
-                        limpeza e mão de obra especializada.
-                        
-                        Possuímos alto padrão de excelência com preços competitivos
-                        de acordo com o mercado, oferecendo elevado índice de
-                        produtividade e economia.</p>
+                        Venha conhecer mais sobre nossos serviços e planos que se encaixam no
+                        seu condomínio ou prédio<br><br>
+                    </p>
+                    <p class="strong">AHM.</p>
+                    <p>Conservadora e Portaria.</p>
                 </div>
             </article>
         </section>
@@ -148,6 +128,12 @@
         <section class="formulario" id="contato">
             <h2>Alguma Dúvida?<br> Entre em Contato</h2>
             <hr>
+            <p>Entre em contato pelo Whatsapp</p>
+            <div class="formaDeContato">
+                <img src="imgs/whatsapp.png" alt="" id="whats">
+                <p class="numero">14 98819-7587</p>
+            </div>
+            <p style="font-size:24px" class="fa">&#xf232;</p>
         </section>
     </main>
     <script src="js/bootstrap.bundle.min.js"></script>

@@ -80,7 +80,7 @@ header{
 }
 
 .box{
-    background-image: url(imgs/bg.png);
+    background-image: url(imgs/bg2.png);
     color: white;
     display: flex;
     justify-content: center;
@@ -112,7 +112,7 @@ header{
     
     margin-top: 10%;
     margin-right: 3.5%;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.671);
     padding-top: 3%;
     padding-right: 10%;
     padding-left: 6%;
@@ -120,7 +120,7 @@ header{
     border-radius: 15px;
     margin-bottom: 11.5%;
     margin-left: 6%;
-    border: 2px solid #202a34;
+    border: 2px solid #10151a;
     font-size: 25px;
 }
 
@@ -147,8 +147,8 @@ header{
     text-justify: auto;
     text-align: center;
     font-family: "TitilliumWebBold", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
+    padding-bottom: 4%;
     margin-bottom: 0vh;
     margin-top: 8vh;
 }
@@ -170,6 +170,7 @@ header{
     justify-content: center;
 }
 .servicos{
+    width: 35%;
     border-image: linear-gradient(to bottom, rgb(148, 228, 225) 0%, rgba(0,0,0,1) 90%);
     border-image-slice: 30 30% 45;
     border-width: 1px;
@@ -229,10 +230,11 @@ header{
 
 .boxContainer2{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 8vh;
     height: 749px;
     background-color: white;
+    padding-left: 15%;
     padding-bottom: 85vh;
 }
 
@@ -240,8 +242,11 @@ header{
     margin-top: 5%;
     color: black;
     margin-left: 5%;
-    width: 30%;
+    width: 50%;
     font-size: 24px;
+}
+.strong{
+    font-weight: bold;
 }
 .sobre p{
     font-family: "TitilliumWeb", sans-serif;
@@ -252,7 +257,9 @@ header{
     font-size: 80px;
     font-family: "TitilliumWebBold", sans-serif;
 }
-
+.formulario{
+    color: white;
+}
 .formulario h2{
     margin-top: 22vh;
     color: white;
@@ -264,4 +271,49 @@ header{
     border: 2px solid white;
     width: 50%;
     margin: 5% auto;
+    margin-bottom: 2%;
+}
+
+.formulario p{
+    font-family: "TitilliumWebLight", sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+#whats{
+    width: 50px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+.formaDeContato{
+    padding: 0 10px;
+    padding-top: 10px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    border: solid 1px white;
+    border-radius: 50px;
+}
+
+.formaDeContato2{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    border-radius: 50px;
+    margin-left: 10px;
+    background-color: black;
+}
+.formaDeContato2 p{
+    font-family: "TitilliumWeb", sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+#whats2{
+    width: 25px;
+    margin-right: 15px;
 }
